@@ -15,7 +15,7 @@
         <div class="contenedor">
             <div class="entrada">
                 <div class="entrada-superior">
-                    <textarea type="" placeholder="Ingrese el texto aquí" class="entrada-input" id="entrada-input-id"></textarea>
+                    <textarea placeholder="Ingrese el texto aquí" class="entrada-input" id="entrada-input-id"></textarea>
                 </div>              
                 <div class="entrada-inferior">
                     <div class="entrada-alerta">
@@ -23,16 +23,27 @@
                     </div>
                     <div class="entrada-botones">
                         <button onclick="encriptar()" class="entrada-boton-encriptar">Encriptar</button>
-                        <button class="entrada-boton-desencriptar">Desencriptar</button>
+                        <button onclick="desencriptar()" class="entrada-boton-desencriptar">Desencriptar</button>
                     </div>
                 </div>
             </div>
             <div class="salida">
-                <img src="./assets/Muñeco.png" alt="" class="salida-imagen">                
+                <div>
+                    <img src="./assets/Muñeco.png" alt="" class="salida-imagen"> 
+                </div>               
                 <div class="salida-parrafos">
                     <p class="salida-p1">Ningún mensaje fue encontrado</p>
                     <p class="salida-p2">Ingresa el texto que desees encriptar o desencriptar.</p>
                 </div>
+                <!--<div class="salida-contenedor-mostrar">
+                    <div class="salida-mostrar-resultado">
+                        <h2 class="salida-titulo">Mensaje encriptado</h2>
+                        <textarea type="text" class="salida-input"></textarea>
+                    </div>
+                    <div class="salida-boton">
+                        <button >Copiar</button>
+                    </div>
+                </div>-->
             </div>
         </div>
     </main>
