@@ -159,3 +159,7 @@ button{
     font-family: 'Inter', sans-serif;
     color: var(--dark-blue);
 }
+
+footer{
+    text-align: center;
+}
